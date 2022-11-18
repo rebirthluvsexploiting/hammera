@@ -1,0 +1,92 @@
+--https://www.roblox.com/catalog/6379052622/Chaotic-War-Hammer
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local tangerex = loadstring(game:HttpGet("https://5f4d3288-7026-4802-bb67-917a76b5e7d8.id.repl.co/Tangerex/Template/main.lua"))()
+
+reanimate = tangerex:Reanimate("PD",false --[[Usage: true or false to toggle click fling]]) -- SP / Simple, LF / Leg Fling, TF / Torso Fling, PD / Perma Death [Fling]
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+reanimate:SetMode("1")-- this is the mode you start on
+
+reanimate:Keybind("F",function()-- change keybind to your desired keybind
+    reanimate:SetMode("1")
+end)
+reanimate:Keybind("keybind",function()
+    reanimate:SetMode("2")
+end)
+reanimate:Keybind("keybind",function()
+    reanimate:SetMode("3")
+end)
+
+
+
+reanimate:NewMode("1",function()
+    local Root = workspace.Camera.CameraSubject.RootPart
+    if Root.Velocity.y > 1 then -- jump
+    --jump lerp here
+    elseif Root.Velocity.y < -1 then -- fall
+    --fall lerp here
+    elseif Root.Velocity.Magnitude < 2 Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent[ xss=removed xss=removed NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(1.5+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),0.5) RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),0.5) RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/30),0.5+0.1*math.cos(sine/30),0+0*math.sin(sine/30))*CFrame.Angles(math.rad(226.9+2*math.sin(sine/30)),math.rad(0+0*math.sin(sine/30)),math.rad(-17.3+2*math.cos(sine/30))),0.5) LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/30),0.5+0.1*math.cos(sine/30),0+0*math.sin(sine/30))*CFrame.Angles(math.rad(0+0*math.sin(sine/30)),math.rad(0+0*math.sin(sine/30)),math.rad(-4.8+-4*math.cos(sine/30))),0.5) RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(2.5+0*math.cos(sine/10))),0.5) LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(-2.5+0*math.cos(sine/10))),0.5) Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent[ Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent[ xss=removed xss=removed NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(1.5+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),0.5) RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/29),-1+0.1*math.cos(sine/25),0+0*math.sin(sine/25))*CFrame.Angles(math.rad(0+2.5*math.sin(sine/25)),math.rad(0+0*math.sin(sine/25)),math.rad(0+0*math.cos(sine/25))),0.5) RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/30),0.5+0.1*math.cos(sine/30),0+0*math.sin(sine/30))*CFrame.Angles(math.rad(67.2+2*math.sin(sine/30)),math.rad(0+0*math.sin(sine/30)),math.rad(-7.9+2*math.cos(sine/30))),0.5) LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/30),0.5+0.1*math.cos(sine/30),-0.6+0*math.sin(sine/30))*CFrame.Angles(math.rad(73.5+5.4*math.sin(sine/30)),math.rad(0+0*math.sin(sine/30)),math.rad(48.5+0*math.cos(sine/30))),0.5) RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/25),-1+0*math.cos(sine/20),0+0*math.cos(sine/20))*CFrame.Angles(math.rad(0+-34*math.sin(sine/20)),math.rad(0+0*math.cos(sine/20)),math.rad(2.5+0*math.cos(sine/20))),0.5) LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/25),-1+0*math.cos(sine/20),0+0*math.cos(sine/20))*CFrame.Angles(math.rad(0+34*math.sin(sine/20)),math.rad(0+0*math.cos(sine/20)),math.rad(-2.5+0*math.cos(sine/20))),0.5) Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent[> 20 then -- run
+    --run lerp here
+    end
+    end)
+
+reanimate:NewMode("2",function()
+    local Root = workspace.Camera.CameraSubject.RootPart
+    if Root.Velocity.y > 1 then -- jump
+    --jump lerp here
+    elseif Root.Velocity.y < -1 then -- fall
+    --fall lerp here
+    elseif Root.Velocity.Magnitude < 2> 20 then -- run
+    --run lerp here
+    end
+    end)
+
+reanimate:NewMode("3",function()
+    local Root = workspace.Camera.CameraSubject.RootPart
+    if Root.Velocity.y > 1 then -- jump
+    --jump lerp here
+    elseif Root.Velocity.y < -1 then -- fall
+    --fall lerp here
+    elseif Root.Velocity.Magnitude < 2> 20 then -- run
+    --run lerp here
+    end
+    end)
+
+
+reanimate:Clickbind("Down",1,function()
+    reanimate:SetAnimation("attack1",1)-- you can change the time here (in seconds)
+    reanimate:SetMode("1")-- set mode number eg 1 2 3
+end)
+
+
+reanimate:NewAnimation("attack1",function()
+ reanimate:Hat("PwnChaos","Right Arm",false,function()
+workspace.Camera.CameraSubject.Parent["PwnChaos"].Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent["PwnChaos"].Handle.AccessoryWeld.C0:Lerp(CFrame.new(1+0*math.cos(sine/10),-1+0*math.cos(sine/10),0.7+0*math.cos(sine/10))*CFrame.Angles(math.rad(95.4+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(-51.7+0*math.cos(sine/10))),0.5)
+end)
+ RH.Part0 = workspace.Camera.CameraSubject.Parent.Torso
+LH.Part0 = workspace.Camera.CameraSubject.Parent.Torso
+NECK.C0=NECK.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),0.5) 
+RJ.C0=RJ.C0:Lerp(CFrame.new(0+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-54.8+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10))),0.5) 
+RS.C0=RS.C0:Lerp(CFrame.new(1.5+0*math.cos(sine/10),0.5+0*math.cos(sine/10),-0.8+0*math.cos(sine/10))*CFrame.Angles(math.rad(51.6+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(-58+0*math.cos(sine/10))),0.5) 
+LS.C0=LS.C0:Lerp(CFrame.new(-1.5+0*math.cos(sine/10),0.5+0*math.cos(sine/10),-0.8+0*math.cos(sine/10))*CFrame.Angles(math.rad(57.9+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(51.6+0*math.cos(sine/10))),0.5) 
+RH.C0=RH.C0:Lerp(CFrame.new(0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-89.3+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(20.3+4.5*math.cos(sine/10))),0.5) 
+LH.C0=LH.C0:Lerp(CFrame.new(-0.5+0*math.cos(sine/10),-1+0*math.cos(sine/10),0+0*math.cos(sine/10))*CFrame.Angles(math.rad(-86.1+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(-17.3+-4.5*math.cos(sine/10))),0.5)
+workspace.Camera.CameraSubject.Parent["PwnChaos"].Handle.AccessoryWeld.C0=workspace.Camera.CameraSubject.Parent["PwnChaos"].Handle.AccessoryWeld.C0:Lerp(CFrame.new(1+0*math.cos(sine/10),-1+0*math.cos(sine/10),0.7+0*math.cos(sine/10))*CFrame.Angles(math.rad(95.4+0*math.cos(sine/10)),math.rad(0+0*math.cos(sine/10)),math.rad(-51.7+0*math.cos(sine/10))),0.5)
+end)
+
+
+
+
+
+
+--    ________                                   
+--   |__   __|                                  
+--        | | __ _ _ __   __ _  ___ _ __ _____  __
+--        | |/ _` | '_ \ / _` |/ _ \ '__/ _ \ \/ /
+--        | | (_| | | | | (_| |  __/ | |  __/>  < 
+--        |_|\__,_|_| |_|\__, |\___|_|  \___/_/\_\
+--                       _ / |                   
+--                      |___/ 
+
+--Made by zero, remove this if you want. Original template by PokeSterk.
